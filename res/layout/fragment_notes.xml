@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scaleType="center"
+        android:src="@drawable/background" />
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:background="#AA000000"
+    >
+
+
+    <EditText android:id="@+id/edit_Name"
+        		android:layout_width="fill_parent"
+        		android:background="@drawable/edit_txt"
+        		android:layout_height="100dp"
+        		android:hint="@string/edit_txt" 
+        		android:layout_margin="3dp"/>
+
+    <ImageButton
+        android:id="@+id/edit_Audio"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="RecordNotes"
+        android:background="@drawable/btn_black"
+        android:layout_margin="3dp"
+        android:src="@drawable/ic_action_mic"/>
+    	<!--  android:textColor="#FFFFFF"
+        android:text="@string/button_addVocalNote"--> 
+        
+      <ListView
+        android:id="@android:id/android:list"
+        android:layout_width="wrap_content"
+        android:layout_height="389dp" 
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+       android:listSelector="@drawable/list_selector" 
+       android:layout_margin="3dp"
+        />
+    
+
+     
+</LinearLayout>
+</FrameLayout>

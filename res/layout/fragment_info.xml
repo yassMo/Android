@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scaleType="center"
+        android:src="@drawable/background" />
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#AA000000"
+    >
+  
+        
+    
+    <LinearLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_Name">
+    </TextView>
+    <EditText android:id="@+id/edit_Name"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_Street">
+    </TextView>
+    <EditText android:id="@+id/edit_Street"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_City">
+    </TextView>
+    <EditText android:id="@+id/edit_City"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_ZipCode">
+    </TextView>
+    <EditText android:id="@+id/edit_ZipCode"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+   
+    <LinearLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_Comp">
+    </TextView>
+    <EditText android:id="@+id/edit_Comp"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="125dp"
+        android:gravity="right"
+        android:layout_height="fill_parent"
+        android:layout_margin="3dp"
+        android:text="@string/edit_Surface"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+
+    </TextView>
+    <EditText android:id="@+id/edit_Surface"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="125dp"
+        android:gravity="right"
+        android:layout_height="fill_parent"
+        android:text="@string/edit_NbrOfRooms"
+        android:layout_margin="3dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+
+    </TextView>
+    <EditText android:id="@+id/edit_NbrOfRooms"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_margin="3dp"
+        		android:background="@drawable/edit_txt"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    
+     <LinearLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_Price">
+    </TextView>
+    <EditText android:id="@+id/edit_Price"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:layout_margin="3dp"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         android:gravity="center">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:text="@string/edit_State"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/edit_Well"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="20dp"
+        android:text="@string/edit_Well" />
+    <RadioButton
+        android:id="@+id/edit_Correct"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_Correct" />
+    <RadioButton
+        android:id="@+id/edit_Bad"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_Bad"
+         /> 
+	</LinearLayout>
+   
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView
+                android:layout_width="125dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" android:text="@string/edit_Num">
+    </TextView>
+    <EditText android:id="@+id/edit_Num"
+        		android:layout_width="fill_parent"
+        		android:layout_margin="3dp"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/edit_txt"
+        		android:hint="@string/edit_txt" />
+    </LinearLayout>
+    
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    
+    <ImageButton
+        android:id="@+id/button_Photo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/btn_black"
+        android:src="@drawable/ic_action_camera"/>
+
+   <ImageButton
+        android:id="@+id/button_Localisation"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_black"
+        android:layout_margin="3dp"
+        android:src="@drawable/ic_action_place"/>
+    
+    <ImageButton
+        android:id="@+id/button_Call"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/btn_black"
+        android:src="@drawable/ic_action_call"
+         />
+    </LinearLayout>
+    
+   <ImageButton
+       android:id="@+id/button_Share"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+        android:background="@drawable/btn_black"
+        android:src="@drawable/ic_action_share"
+        />
+
+   <Button
+       android:id="@+id/button_Delete"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="3dp"
+       android:background="@drawable/btn_red"
+       android:text="@string/button_Delete"
+       android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
+</FrameLayout>

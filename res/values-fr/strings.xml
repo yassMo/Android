@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_add_immo">New Immo</string>
+    <string name="title_activity_consultation">Consultation</string>
+    <string name="title_activity_add_ref_location">Add Ref Location</string>
+
+    <string name="button_AddImmo">Nouveau Bien</string>
+    <string name="button_Consultation">Consulter Biens existants</string>
+    <string name="button_AddRefLocation">Ajout Localisation Référence</string>
+    <string name="button_OK">OK</string>
+    <string name="button_addNotes">Ajout de notes</string>
+    <string name="button_addVocalNote">Ajout de note vocale</string>
+    <string name="button_Photo">Photo</string>
+    <string name="button_Call">Appeler</string>
+    <string name="button_Localisation">Localisation</string>
+    <string name="button_Delete">Supprimer</string>
+    <string name="button_Export">Partager</string>
+    
+    <string name="edit_Comp">complement adresse</string>
+    <string name="edit_Price">Loyer/Prix </string>
+    <string name="edit_Name">Nom Fiche</string>
+    <string name="edit_Street">Rue</string>
+    <string name="edit_City">Ville</string>
+    <string name="edit_ZipCode">Code Postal</string>
+    <string name="edit_Note">Note</string>
+    <string name="edit_Surface">Surface \n m2</string>
+    <string name="edit_NbrOfRooms">Nombre \n de pieces</string>
+    <string name="edit_State">Etat</string>
+    <string name="edit_Correct">Correct</string>
+    <string name="edit_Well">Tres Bien</string>
+    <string name="edit_Bad">Mauvais</string>
+    <string name="edit_txt">Completez</string>
+    <string name="edit_Num">Contact</string>
+    <string name="edit_06">06....</string>
+    
+    <string name="action_Main">Retour</string>
+    <string name="action_AddImmo">Nouveau Bien</string>
+    <string name="action_Consultation">Consultation</string>
+    <string name="action_AddRefLocation">Ajout Location Ref</string>
+    
+    <string name="btnIntend">Prendre une (Grande) Photo</string>
+    <string name="btnIntendS">Prendre une (Petite) Photo</string>
+    <string name="btnIntendV">Prendre une Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">Camera</string>
+    
+    <string name="choose_format_title">Choix du Format Audio</string>
+    <string name="start_recording">Enregistrer</string>
+    <string name="stop_recording">Arreter</string>
+    <string name="audio_format">Format</string>
+</resources>
